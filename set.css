@@ -1,0 +1,104 @@
+/*
+  NAME:
+  DATE:
+  SECTION/TA:
+
+  INSERT 2-3 SENTENCE DESCRIPTION OF FILE HERE
+ */
+
+body, button, select, input {
+  text-align: center;
+  font-size: 12pt;
+  font-family: Helvetica, Verdana, sans-serif;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+}
+
+button, select {
+  padding: 8px;
+  background-color: white;
+  border: 2pt solid black;
+}
+
+h2 {
+  text-decoration: underline;
+  font-size: 16pt;
+}
+
+#start-btn {
+  width: 100px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#menu-view > article {
+  background-color: #6F77ED;
+  border-radius: 0.35em;
+  border: 5pt solid black;
+  color: white;
+}
+
+#game-view {
+  display: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color: black;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+#details-bar{
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+
+#board{
+  display: flex;
+  flex-flow:row;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 1em;
+}
+
+.card{
+  width: 220px;
+  height: 95px;
+  border-style: solid;
+  border-width: 0.35em;
+  border-radius: 1em;
+  margin: 1em;
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-content:center;
+}
+
+.selected{
+  box-shadow: 15px 10px 10px teal;
+}
+
+img{
+  height: 85%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hide-imgs{
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.hide-imgs > img{
+  display: none;
+}
+
+.hide-imgs > p{
+  font-size: 30;
+  text-align: center;
+}
